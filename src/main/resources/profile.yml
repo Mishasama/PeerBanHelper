@@ -27,16 +27,15 @@ module:
       - "startsWith@-TS" # Torrentstorm
       - "startsWith@-FG" # FlashGet 快车
       - "startsWith@-TT" # 土豆，流媒体播放器
+      - "startsWith@-tt"
       - "startsWith@-NX" # Net Transport
       - "startsWith@-SP" # 比特精灵，默认启用反吸血导致不给其他客户端上传
       #- "startWith@FD6" # Free Download Manager，非标准 PeerId
       - "startsWith@-GT0002"  # BaiduNetdisk Offline Download
       - "startsWith@-GT0003"  # BaiduNetdisk Offline Download
       - "startsWith@-DT" # 恶意客户端 https://github.com/anacrolix/torrent/discussions/891
-      - "startsWith@-TT"
-      - "startsWith@-tt"
-      - "contains@cacao"
       - "startsWith@-HP" # dt 变种
+      - "contains@cacao"
   # 客户端名称封禁
   client-name-blacklist:
     enabled: true
@@ -52,11 +51,11 @@ module:
       - "contains@QQDownload"
       - "contains@github.com/anacrolix/torrent" # https://github.com/anacrolix/torrent/discussions/891
       - "startsWith@qBittorrent/3.3.15" # https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues/432
-      - "startsWith@dt/torrent"
-      - "startsWith@DT"
       - "startsWith@go.torrent.dev" # BaiduNetdisk 离线下载
       - "startsWith@github.com/thank423/trafficConsume" # 完完全全的恶意客户端
       - "startsWith@Taipei-Torrent" # https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues/530#issuecomment-2017681942
+      - "startsWith@dt/torrent"
+      - "startsWith@DT"
       - "startsWith@hp/torrent"
       - "startsWith@HP"
       #- "startsWith@aria2" # 冒充 Transmission 的 PeerId
